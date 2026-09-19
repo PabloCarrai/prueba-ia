@@ -14,3 +14,42 @@ sudo usermod -aG docker $USER
 ```
 
 </details>
+
+<details>
+<summary>Clonar Repositorio</summary>
+
+```bash
+
+git clone https://github.com/PabloCarrai/prueba-ia.git
+
+
+```
+
+Generar .env
+
+
+```bash
+
+
+cp .env-Ejemplo .env
+
+
+```
+
+</details>
+
+
+
+<details>
+<summary>Iniciar Ollama</summary>
+
+```bash
+
+docker compose up -d
+docker compose exec ollama ollama run llama3
+
+
+```
+
+
+</details>
